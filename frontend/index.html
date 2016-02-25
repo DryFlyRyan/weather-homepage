@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="weather_app">
   <head>
     <meta charset="utf-8">
     <title>Weather Homepage</title>
     <link rel="stylesheet" href="/style/main.css">
+    <base href="/"/>
   </head>
   <body>
+    <header>
+      <h1>Weather App</h1>
+    </header>
+    <main ui-view>
+
+    </main>
     <footer>
+
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
       <script src="https://angular-ui.github.io/ui-router/release/angular-ui-router.js" charset="utf-8"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>

@@ -2,8 +2,9 @@
   "name": "weatherpage",
   "version": "0.0.0",
   "description": "A home page to have a quick snapshot at local weather.",
-  "main": "app.js",
+  "main": "./server/app.js",
   "scripts": {
+    "start": "node ./server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
